@@ -1,0 +1,39 @@
+{
+  "name": "spirling/framework",
+  "description": "Spirling Framework",
+  "version": "0.0.1",
+  "type": "library",
+  "keywords": [],
+  "homepage": "https://spirling.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Johnie Spirling",
+      "email": "johnie.spirling@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../interfaces"
+    },
+    {
+      "type": "path",
+      "url": "../routing"
+    }
+  ],
+  "require": {
+    "php": ">=7.4.0",
+    "spirling/interfaces": "*",
+    "spirling/routing": "*"
+  },
+  "config": {
+    "optimize-autoloader": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Spirling\\Framework\\": ""
+    }
+  }
+}
